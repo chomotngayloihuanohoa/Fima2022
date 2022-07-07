@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/welcome/index"
+  ],
+  "window": {
+    "defaultTitle": "Fima",
+    "titleBarColor": "#000000"
+  }
+}

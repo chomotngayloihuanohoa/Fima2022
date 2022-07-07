@@ -1,0 +1,8 @@
+{
+  "name": "fima",
+  "version": "0.1.0",
+  "tiki": {
+    "appIdentifier": "vn.tiki.miniapp.fima",
+    "buildNumber": 1
+  }
+}

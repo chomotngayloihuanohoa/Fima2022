@@ -1,0 +1,36 @@
+.container {
+  /* background-color: #F2C5E7; */
+  height: 390px;
+  padding: 3px;
+}
+
+.center {
+  text-align: center;
+  /* margin-left: 2%;
+  margin-right: 2%; */
+}
+
+.welcome-banner {
+  height: 380px;
+  width: 95%;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: kimberle;
+  src: url(http://www.princexml.com/fonts/larabie/kimberle.ttf) format("truetype");;
+}
+
+.big-title {
+  font-size: 280%;
+  line-height: 83%;
+  font-family: kimberle;
+  color: #ffffff;
+}
+
+.small-slogan {
+  font-size: 100%;
+  margin-top: 5px;
+  color: #ffffff;
+
+}

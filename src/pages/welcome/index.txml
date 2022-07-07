@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="center">
+  <image
+    class="welcome-banner"
+    src="/assets/welcome_banner.png"
+  />
+  </view>
+</view>
+
+<view class="center">
+  <text class="big-title"> 
+    The Prediction In Your Hands
+  </text>
+
+<view class="small-slogan">Người bạn đồng hành số một của mọi lựa chọn tài chính</view>
+
+</view>
+
+
+
+<!-- button -->
