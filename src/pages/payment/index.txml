@@ -1,0 +1,35 @@
+<!-- section 1  -->
+
+<text class="the-header"> Hàng tháng </text>
+<view class="item">
+  <icon type="more" />
+</view>
+
+<view class="container">
+  <view class="block">
+    Netflix.
+  </view>
+  <view class="block">
+    Spotify.
+  </view>
+</view>
+
+
+<!-- section 2 -->
+
+<text class="the-header"> Thông thường</text>
+<view class="right-align">
+  <view class="item">
+    <icon type="more" />
+  </view>
+</view>
+
+<view class="container">
+  <view class="block">
+    <text class="bold">Mua cafe Starbuck.\n</text>
+    <text>Làm sao để chia 2 bên giờ. </text>
+  </view>
+</view>
+
+<text> Add Navigation Bar ở dưới.</text>
+<!-- button -->
