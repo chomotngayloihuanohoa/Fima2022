@@ -1,0 +1,40 @@
+<!-- <view>{{text}}</view> -->
+
+<!-- <view>
+  <image class = "illus" src="haha.jpg"></image>
+</view> -->
+<view class="container">
+  <text class = "HeadQuote">
+    {{text}}
+  </text>
+  <!-- <image class = "illus" src="haha.jpg"></image> -->
+  <form onSubmit="onSubmit" onReset="onReset">
+    <view class="block">
+      <label>
+        <!-- <text class="header">Input</text> -->
+        <input name="Username" placeholder="Email/Phone number" />
+      </label>
+      
+    </view>
+    <view class="block">
+      <label>
+        <!-- <text class="header">Input</text> -->
+        <input name="Password" placeholder="Password" />
+      </label>
+    </view>
+    <view class="block">
+      <label>
+        <!-- <text class="header">Input</text> -->
+        <input name="RePassword" placeholder="Confirm password" />
+      </label>
+    </view>
+    <view class="buttons">
+      <button form-type="submit">Sign Up</button>
+      <!-- <button form-type="reset" type="outline">Reset</button> -->
+    </view>
+    
+  </form>
+  <text class = "signInLine">
+    Already have an account? Sign in
+  </text>
+</view>
