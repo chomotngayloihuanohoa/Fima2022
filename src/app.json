@@ -1,8 +1,11 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/payment/index",
+    "pages/index/index",
+    "pages/addTransaction/index",
+    "pages/SignUp/index"
   ],
   "window": {
-    "defaultTitle": "My App"
+    "defaultTitle": "Fima"
   }
 }
