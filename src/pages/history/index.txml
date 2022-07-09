@@ -1,0 +1,41 @@
+<view class="title">Group List </view>
+<view class="block1">
+  <view class="block2">
+    <view class="content">Group1</view>
+    <view>Money</view>
+  </view>
+  <view class="block2">
+    <view class="content">Note</view>
+    <view>Date</view>
+  </view>
+</view>
+<view class="block1">
+  <view class="block2">
+    <view class="content">Group2</view>
+    <view>Money</view>
+  </view>
+  <view class="block2">
+    <view class="content">Note</view>
+    <view>Date</view>
+  </view>
+</view>
+<view class="block1">
+  <view class="block2">
+    <view class="content">Group3</view>
+    <view>Money</view>
+  </view>
+  <view class="block2">
+    <view class="content">Note</view>
+    <view>Date</view>
+  </view>
+</view>
+<view class="block1">
+  <view class="block2">
+    <view class="content">Group4</view>
+    <view>Money</view>
+  </view>
+  <view class="block2">
+    <view class="content">Note</view>
+    <view>Date</view>
+  </view>
+</view>
