@@ -21,3 +21,6 @@
   width: 45px;
   height: 45px;
 }
+.groupName {
+  margin-left:5%;
+}
