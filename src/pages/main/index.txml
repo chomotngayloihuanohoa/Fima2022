@@ -1,0 +1,30 @@
+<view class="title">Mục tiêu</view>
+<view class="block">
+  <view class="change">Iphone 37</view>
+  <view class ="fix"> Tiến Độ</view>
+  <view class ="progress_bar">
+    <view class="progress">
+    </view>
+    <view class= "fixx">69%</view>
+  </view>
+</view>
+
+<view class="block1">
+  <view class="grid">
+      <button> 
+        <image class="image"src= "image/people.png"></image>
+      </button> 
+      <button> 
+        <image class="image"src= "image/wallet.png"></image>
+      </button>  
+      <button> 
+        <image class="image"src= "image/history.png"></image>
+      </button> 
+      <button> 
+        <image class="image"src= "image/saving.png"></image>
+      </button>
+      <button> 
+        <image class="image"src= "image/bill.png"></image>
+      </button> 
+  </view>
+</view>
