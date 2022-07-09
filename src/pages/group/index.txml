@@ -1,0 +1,19 @@
+<view class="title">Group List </view>
+<button class="block1">
+  <view class="avatar"></view>
+  <view>Group1</view>
+</button>
+<button class="block1">
+  <view class="avatar"></view>
+  <view>Group2</view>
+</button>
+<button class="block1">
+  <view class="avatar"></view>
+  <view>Group3</view>
+</button>
+<button class="block1">
+  <view>
+    <image class="avatar" src="image/ava.png"></image>
+  </view>
+  <view style="margin-left:5%">Group4</view>
+</button>
