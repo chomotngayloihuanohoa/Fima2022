@@ -1,0 +1,10 @@
+.simp{
+  margin-left: 5%;
+}
+.container{
+  height: 60px;
+  width: 80%;
+  padding: 5%;
+  margin-left: 5%;
+  background-color: gray;
+}
