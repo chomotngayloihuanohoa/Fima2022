@@ -1,12 +1,17 @@
 .simp{
   margin-left: 5%;
+  font-size: large;
 }
 .container{
   height: 60px;
   width: 80%;
   padding: 5%;
   margin-left: 5%;
-  background-color: gray;
+  background-color: white;
+  border-radius: 16px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
 }
 .block2{
   bottom: 5%;

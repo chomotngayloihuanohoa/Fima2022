@@ -2,11 +2,13 @@
 <view class="block">
   <view class="change">Iphone 37</view>
   <view class ="fix"> Tiến Độ</view>
-  <view class ="progress_bar">
-    <view class="progress">
+  <view style="display: flex; flex-direction: row;">
+    <view class ="progress_bar">
+      <view class="progress"></view>
     </view>
-    <view class= "fixx">69%</view>
+    <view class= "fixx" style="margin-left: 5%;">69%</view>
   </view>
+  
 </view>
 
 <view class="block1">
@@ -15,9 +17,9 @@
         <image class="image"src= "image/people.png"></image>
       </button> 
       <button onTap="gotoSetting" class="grid-button"> 
-        <image class="image"src= "image/wallet.png"></image>
+        <image class="image"src= "image/settings.png"></image>
       </button>  
-      <button class="grid-button"> 
+      <button onTap="gotoHistory" class="grid-button"> 
         <image class="image"src= "image/history.png"></image>
       </button> 
       <button onTap="gotoPlanning" class="grid-button"> 

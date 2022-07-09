@@ -33,5 +33,8 @@ Page({
   },
   gotoPrediction() {
     my.navigateTo({url: 'pages/prediction/index'})
+  },
+  gotoHistory(){
+    my.navigateTo({url: 'pages/history/index'})
   }
-});
+ });

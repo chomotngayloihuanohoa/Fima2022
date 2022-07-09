@@ -9,7 +9,8 @@
     "pages/welcome/index",
     "pages/main/index",
     "pages/planning/index",
-    "pages/addTransaction/index"
+    "pages/addTransaction/index",
+    "pages/history/index"
   ],
   "window": {
     "defaultTitle": "Fima"

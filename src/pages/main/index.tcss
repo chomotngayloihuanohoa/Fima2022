@@ -11,7 +11,6 @@
   width: 80%;
   margin-left: 5%;
   border-radius: 16px;
-  background-color: gray
 }
 .block1 {
   background-color: white;
@@ -20,7 +19,6 @@
   width: 80%;
   margin-left: 5%;
   border-radius: 16px;
-  background-color: gray;
 }
 .change {
   font-size: 20px;
@@ -49,14 +47,14 @@
 .progress_bar{
   width: 60%;
   height: 15px;
-  background-color: pink;
+  background-color: lightblue;
   display:flex;
   border-radius: 8px;
 }
 
 .progress{
     width: 69%;
-    background-color: red;
+    background-color: #1CA8FF;
     border-radius: 8px;
 }
 .fix{
