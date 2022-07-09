@@ -1,16 +1,23 @@
 .ava {
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
+  margin-left: 5%;
+}
+
+.flutter {
+  display: flex;
+  flex-direction: row;
 }
 
 .container{
-  margin-left: 120px;
+  margin-left: 10px;
   height: 20px;
   font-size: large;
 }
 
 .user-data{
-  margin-left: 120px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .user-data-gap{

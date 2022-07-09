@@ -1,19 +1,23 @@
-<view>
+<view class = "flutter">
   <image class="ava" src="image/ava.png"></image>
+  <view class = "container2">
+    <view class="container">
+      Username
+    </view>
+    <!-- <view class="user-data-gap"></view> -->
+    <view class="user-data">
+      Phone Number
+    </view>
+
+    <!-- <view class="separator"></view> -->
+    <view class="user-data">
+      Email data
+    </view>
+  </view>
+  
 </view>
 
-<view class="container">
-  Username
-</view>
-<view class="user-data-gap"></view>
-<view class="user-data">
-  Phone Number
-</view>
 
-<view class="separator"></view>
-<view class="user-data">
-  Email data
-</view>
 
 <view class="separator"></view>
 <view class="section">

@@ -20,10 +20,10 @@
       <button class="grid-button"> 
         <image class="image"src= "image/history.png"></image>
       </button> 
-      <button onTap="gotoAddTransaction" class="grid-button"> 
+      <button onTap="gotoPlanning" class="grid-button"> 
         <image class="image"src= "image/saving.png"></image>
       </button>
-      <button onTap="gotoPlanning" class="grid-button"> 
+      <button onTap="gotoPayment" class="grid-button"> 
         <image class="image"src= "image/bill.png"></image>
       </button>
       <button onTap="gotoPrediction"> 
@@ -33,7 +33,7 @@
 </view>
 
 <view class="block2">
-  <button class="change4"> 
+  <button class="change4" onTap="gotoAddTransaction"> 
     +
   </button>
 </view>

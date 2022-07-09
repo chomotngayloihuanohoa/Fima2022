@@ -19,6 +19,9 @@ Page({
   gotoPlanning() {
     my.navigateTo({url: 'pages/planning/index'})
   },
+  gotoPayment() {
+    my.navigateTo({url: 'pages/payment/index'})
+  },
   gotoSetting() {
     my.navigateTo({url: 'pages/setting/index'})
   },
