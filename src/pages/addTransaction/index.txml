@@ -62,7 +62,7 @@
     <view>
       <input class = "filling" name = "comment" placeholder="Ex: buying dakim*kura"></input>
     </view>
-    
+    <button form-type="submit" onTap="gotoMain" style="float: right;">Add</button>
   </form>
 </view>
 

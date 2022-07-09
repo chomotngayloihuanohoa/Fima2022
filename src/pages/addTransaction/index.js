@@ -61,5 +61,8 @@ Page({
   },
   onSelect2(selected2) {
     this.setData({ selected2 });
+  },
+  gotoMain() {
+    my.navigateTo({url: 'pages/main/index'})
   }
 });
