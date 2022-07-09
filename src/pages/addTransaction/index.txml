@@ -1,0 +1,103 @@
+<view class="container template">
+  <text>Add Transaction</text>
+</view>
+<view class="buttons">
+  <!-- <tabs tabs="{{tabs}}" tabsName="activeTab" stickyBar="{{true}}" onTabClick="onTabClick" onChange="onTabChange"
+    activeTab="{{activeTab}}" tabBarBackgroundColor="#1A94FF" tabBarActiveTextColor="#FFF" tabBarUnderlineColor="#FFF"
+    tabBarInactiveTextColor="#FFF">
+    <tab-content key="0" tabId="{{0}}" >
+      <view class="content">
+        
+      </view>
+    </tab-content>
+    <tab-content key="1" tabId="{{1}}" >
+      <view class="content">
+        
+      </view>
+    </tab-content>
+  </tabs> -->
+  
+</view>
+<view>
+  <form onSubmit="onSubmit" onReset="onReset">
+    <tabs tabs="{{tabs1}}"
+      tabsName="activeTab1"
+      activeTab="{{activeTab1}}"
+      onTabClick="onTabClick"
+      swipeable="{{false}}">
+      <block tiki:for="{{tabs1}}">
+        <tab-content tabId="{{index}}">
+          <view class="tab-item" />
+        </tab-content>
+      </block>
+    </tabs>
+
+    <input class = "balance" name = "balance" placeholder="Add balance"></input>
+
+    <text class = "headings">Account</text>
+    <dropdown
+      maskClose="{{false}}"
+      bottomSheetHeight="300"
+      items="{{items1}}"
+      value="{{selected1}}"
+      onSelect="onSelect1"
+      placeholder="Chọn 1">
+    </dropdown>
+    <text class = "headings">Category</text>
+    <dropdown
+      bottomSheetHeight="200"
+      bottomSheetTitle="Custom"
+      labelKey="label"
+      idKey="key"
+      items="{{items2}}"
+      value="{{selected2}}"
+      onSelect="onSelect2"
+      placeholder="Chọn 2">
+    </dropdown>
+    <text class = "headings">Time</text>
+    <view>
+      <input class = "filling" name = "time" placeholder="dd/mm/yyyy"></input>
+    </view>
+    <text class = "headings">Comment</text>
+    <view>
+      <input class = "filling" name = "comment" placeholder="Ex: buying dakim*kura"></input>
+    </view>
+    
+  </form>
+</view>
+
+<!-- <view>
+  <block-header
+    title="Usage"
+    description="Tab bar is used as a graphical interface element that allows multiple panels to be contained within a single window, using tabs as a navigational element." />
+
+  <view class="block-content gray10">
+    <text class="title mb-8">Variants</text>
+
+    <text class="subtitle mb-8">Text only</text> -->
+    <!-- <tabs tabs="{{tabs1}}"
+      tabsName="activeTab1"
+      activeTab="{{activeTab1}}"
+      onTabClick="onTabClick"
+      swipeable="{{false}}">
+      <block tiki:for="{{tabs1}}">
+        <tab-content tabId="{{index}}">
+          <view class="tab-item" />
+        </tab-content>
+      </block>
+    </tabs> -->
+<!-- 
+    <text class="subtitle mb-8 mt-16">Text with icon</text>
+    <tabs tabs="{{tabs2}}"
+        tabsName="activeTab2"
+        onTabClick="onTabClick"
+        onChange="onChange"
+        activeTab="{{activeTab2}}">
+      <block tiki:for="{{tabs2}}">
+        <tab-content tabId="{{index}}">
+          <view class="tab-item" />
+        </tab-content>
+      </block>
+    </tabs> -->
+  <!-- </view>
+</view> -->

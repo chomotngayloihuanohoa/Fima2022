@@ -1,9 +1,8 @@
 {
   "pages": [
-    "pages/welcome/index"
+    "pages/index/index"
   ],
   "window": {
-    "defaultTitle": "Fima",
-    "titleBarColor": "#000000"
+    "defaultTitle": "My App"
   }
 }
