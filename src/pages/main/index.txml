@@ -11,20 +11,27 @@
 
 <view class="block1">
   <view class="grid">
-      <button> 
+      <button class="grid-button"> 
         <image class="image"src= "image/people.png"></image>
       </button> 
-      <button onTap="gotoSetting"> 
+      <button onTap="gotoSetting" class="grid-button"> 
         <image class="image"src= "image/wallet.png"></image>
       </button>  
-      <button> 
+      <button class="grid-button"> 
         <image class="image"src= "image/history.png"></image>
       </button> 
-      <button onTap="gotoAddTransaction"> 
+      <button onTap="gotoAddTransaction" class="grid-button"> 
         <image class="image"src= "image/saving.png"></image>
       </button>
-      <button onTap="gotoPlanning"> 
+      <button onTap="gotoPlanning" class="grid-button"> 
         <image class="image"src= "image/bill.png"></image>
       </button> 
   </view>
 </view>
+
+<view class="block2">
+  <button class="change4"> 
+    +
+  </button>
+</view>
+

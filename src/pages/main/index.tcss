@@ -25,7 +25,7 @@
 .change {
   font-size: 20px;
 }
-button {
+.grid-button {
   width: 25%;
   height: 35%;
   border-radius: 16px;
@@ -68,4 +68,16 @@ font-size: 15px;
   margin-top: -5px;
   font-size: 16px;
 
+}
+.block2{
+  position: fixed;
+  bottom: 5%;
+  right : 44%;
+  border-radius : 50%;
+  background-color: gray;
+}
+.change4{
+ font-size: 20px;
+ text-align: center;
+ border-radius: 50%;
 }
