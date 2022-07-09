@@ -18,18 +18,23 @@
 <!-- section 2 -->
 
 <text class="the-header"> Thông thường</text>
-<view class="right-align">
   <view class="item">
     <icon type="more" />
+  </view>
+
+<view class="container">
+  <view class="block">
+    <text class="bold">Cafe Starbuck\n</text>
+    <text>Làm sao để chia 2 bên giờ. </text>
   </view>
 </view>
 
 <view class="container">
   <view class="block">
-    <text class="bold">Mua cafe Starbuck.\n</text>
-    <text>Làm sao để chia 2 bên giờ. </text>
+    <text class="bold">Shopping\n</text>
+    <text>Chuẩn bị đồ trước khi lên.</text>
   </view>
 </view>
 
-<text> Add Navigation Bar ở dưới.</text>
+<!-- <text> Add Navigation Bar ở dưới.</text> -->
 <!-- button -->
