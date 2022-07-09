@@ -1,5 +1,7 @@
 <form class="container">
-  <view class = "container3"> </view>
+  <view>
+    <image class = "container3" src="image/logo.jpg"></image>
+  </view>
   <text class="simp"> Welcome to Fima </text>
   <view class = "container4"> </view>
   <view class="inp">
