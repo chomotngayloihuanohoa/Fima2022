@@ -1,0 +1,65 @@
+.image-item {
+  width: 100px;
+  height: 100px;
+}
+.container1 {
+  min-height: 100%;
+  background-color: var(--gray20);
+  padding: 16px;
+}
+
+.block {
+  background-color: white;
+  margin: 8px 0;
+  padding: 16px;
+  border-radius: var(--border-radius-rounded-20px);
+}
+
+button {
+  margin-top: 130px;
+  margin-left: 90px;
+  width: 30%;
+  height: 5%;
+  border-radius: 16px
+}
+
+.container{
+  margin-left: 220px ;
+  padding: 0px;
+  font-size: 10px;
+}
+.simp {
+  margin-left: 100px;
+  
+}
+
+.container3{
+  width: 120px;
+  height: 150px;
+}
+.list-item-label {
+  margin-bottom: 16px;
+}
+
+.sub-content {
+  color: var(--text-content-secondary);
+  font-size: 12px;
+}
+
+.line {
+  margin-bottom: 8px;
+}
+
+.inp{
+  height: 10px;
+  width: 100%;
+  margin-left: 60px;
+}
+.container4{
+  height: 50px;
+}
+.inp2{
+  height: 60px;
+  width: 100%;
+  margin-left: 60px;
+}

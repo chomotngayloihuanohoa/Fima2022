@@ -1,0 +1,14 @@
+<view class = "container3"> </view>
+<text class="simp"> Welcome to Fima </text>
+<view class = "container4"> </view>
+<view class="inp">
+<input placeholder="account"= ></input>
+</view>
+<view class = "container4"> </view>
+<view class="inp">
+  <input placeholder="pass" ></input>
+  </view>
+<view><button type="solid" onTap="onTap">Sign in
+</button> </view>
+<view class="container">Sign up</view>
+
