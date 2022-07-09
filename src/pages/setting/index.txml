@@ -1,40 +1,54 @@
 <view class="container">Username</view>
-<view class="simp"></view>
-<view class="kayloussimp">Phone Number</view>
-<view class="simp1"></view>
-<view class="kayloussimp">Email data</view>
-<view class="simp1"></view>
-<view class="con">Group</view>  
-<view class="simp1"></view>
+<view class="user-data-gap"></view>
+<view class="user-data">
+  Phone Number
+</view>
+<view class="separator"></view>
+<view class="user-data">Email data</view>
+<view class="separator"></view>
+<view class="section">Group</view>  
+
+<view class="separator"></view>
 <view><button type="solid" onTap="onTap">My Wallet
 </button> </view> 
-<view class="simp1"></view>
+
+<view class="separator"></view>
 <view><button type="solid" onTap="onTap">My Plan
 </button> </view> 
-<view class="simp1"></view>
-<view><button type="solid" onTap="onTap">My Group
+
+<view class="separator"></view>
+<view><button 
+  type="solid" onTap="onTap">My Group
 </button> </view> 
-<view class="simp1"></view>
+
+<view class="separator"></view>
 <view><button type="solid" onTap="onTap">My Subscription
 </button> </view> 
 
-<view class="simp2"></view>
-<view class="con"> General</view>
-<view class="simp1"></view>
+<view class="section-gap"></view>
+
+<view class="section"> General</view>
+<view class="separator"></view>
 <view><button type="solid" onTap="onTap">Notification
 </button> </view> 
-<view class="simp1"></view>
-<view><button type="solid" onTap="onTap">Language
+<view class="separator"></view>
+<view><button type="solid" onTap="onTap">
+  Language
+</button></view> 
+<view class="separator"></view>
+<view><button type="solid" onTap="onTap">
+  Security and Privacy
 </button> </view> 
-<view class="simp1"></view>
-<view><button type="solid" onTap="onTap">Security and Privacy
-</button> </view> 
-<view class="simp1"></view>
-<view><button type="solid" onTap="onTap">Term of Service
-</button> </view> 
-<view class="simp1"></view>
-<view><button type="solid" onTap="onTap"> Support
-</button> </view> 
-<view class="simp1"></view>
-<view><button type="solid" onTap="onTap">Log out
-</button> </view> 
+<view class="separator"></view>
+<view><button type="solid" onTap="onTap">
+  Term of Service
+</button></view> 
+
+<view class="separator"></view>
+<view><button type="solid" onTap="onTap"> 
+  Support
+</button></view> 
+<view class="separator"></view>
+<view><button type="solid" onTap="onTap">
+  Log out
+</button></view> 

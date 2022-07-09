@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/setting/index",
+    "pages/planning/index",
     "pages/payment/index",
     "pages/index/index",
     "pages/addTransaction/index",
