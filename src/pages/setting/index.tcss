@@ -1,15 +1,15 @@
 .container{
-  margin-left: 12px;
+  margin-left: 120px;
   height: 20px;
   font-size: large;
 }
 
-.user-data-gap{
-  height: 10px;
+.user-data{
+  margin-left: 120px;
 }
 
-.user-data{
-  margin-left: 150px;
+.user-data-gap{
+  height: 10px;
 }
 
 .separator{
@@ -27,6 +27,7 @@ button {
   box-shadow: 1px 1px 5px rgb(206, 206, 206);
   text-align: left;
 }
+
 .section{
   font-size: 20px;
   margin-left: 5%;
@@ -36,8 +37,13 @@ button {
 .section-gap{
   height: 20px;
 }
+
 .gen{
   font-size: 20px;
+}
+
+icon {
+  padding-right: 6px;
 }
 
 
