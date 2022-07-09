@@ -25,6 +25,9 @@
       </button>
       <button onTap="gotoPlanning"> 
         <image class="image"src= "image/bill.png"></image>
-      </button> 
+      </button>
+      <button onTap="gotoPrediction"> 
+        <image class="image"src= "image/prediction.png"></image>
+      </button>
   </view>
 </view>

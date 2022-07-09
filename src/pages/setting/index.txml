@@ -1,3 +1,7 @@
+<view>
+  <image class="ava" src="image/ava.png"></image>
+</view>
+
 <view class="container">
   Username
 </view>

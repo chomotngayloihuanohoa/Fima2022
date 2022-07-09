@@ -1,4 +1,4 @@
-<view class="container">
+<form class="container">
   <view class = "container3"> </view>
   <text class="simp"> Welcome to Fima </text>
   <view class = "container4"> </view>
@@ -16,7 +16,7 @@
     <button class = "signInButton" type="solid" onTap="gotoMain">Sign in</button>
   </view>
   
-</view>
+</form>
 
 <view style="float: right; padding-right: 20px;">
   <button class = "signUpButton" type = "ghost" onTap="gotoSignUp"> Sign up </button>

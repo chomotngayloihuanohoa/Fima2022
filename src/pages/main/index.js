@@ -24,5 +24,8 @@ Page({
   },
   gotoAddTransaction() {
     my.navigateTo({url: 'pages/addTransaction/index'})
+  },
+  gotoPrediction() {
+    my.navigateTo({url: 'pages/prediction/index'})
   }
 });
