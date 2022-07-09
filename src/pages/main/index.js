@@ -16,6 +16,9 @@ Page({
   data: {
     showInfo: false 
   },
+  gotoGroup() {
+    my.navigateTo({url: 'pages/group/index'})
+  },
   gotoPlanning() {
     my.navigateTo({url: 'pages/planning/index'})
   },

@@ -1,6 +1,8 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/group/index",
+    "pages/prediction/index",
     "pages/setting/index",
     "pages/SignUp/index",
     "pages/payment/index",

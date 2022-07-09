@@ -11,7 +11,7 @@
 
 <view class="block1">
   <view class="grid">
-      <button class="grid-button"> 
+      <button onTap="gotoGroup" class="grid-button"> 
         <image class="image"src= "image/people.png"></image>
       </button> 
       <button onTap="gotoSetting" class="grid-button"> 
