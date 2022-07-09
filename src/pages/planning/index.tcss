@@ -8,3 +8,15 @@
   margin-left: 5%;
   background-color: gray;
 }
+.block2{
+  bottom: 5%;
+  position: fixed;
+  right: 44%;
+  
+}
+
+.change4{
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+}

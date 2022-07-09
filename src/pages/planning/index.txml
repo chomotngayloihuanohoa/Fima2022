@@ -4,3 +4,9 @@
   <view>XYZ</view>
   <view>BHD</view>
 </view>
+
+<view class="block2">
+  <button class="change4"> 
+    +
+  </button>
+</view>
