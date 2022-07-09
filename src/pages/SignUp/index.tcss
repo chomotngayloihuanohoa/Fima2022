@@ -23,7 +23,7 @@ label {
 }
 
 .buttons {
-  /* float: right; */
+  float: right;
   /* display: flex; */
   width: 100px;
   /* flex-direction: column;
@@ -32,22 +32,17 @@ label {
   align-content: center; */
 }
 
-button {
-  width: 100%;
-  /* display: flex;
-  flex-direction: column;
-  align-items:center;
-  align-content: center; */
-}
 
 .signInLine {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  align-self: center; */
-  /* margin: auto; */
-  padding-top: 30px;
+  color : black;
+  font-size: 12px;
+  background-color: transparent;
+  border-color: transparent;
+  margin-top: 30px;
+}
+.signInLine:hover {
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .illus {

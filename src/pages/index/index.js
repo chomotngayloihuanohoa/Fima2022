@@ -16,5 +16,11 @@ Page({
   },
   onChangeFilled(event) {
     this.setData({ filled: event.detail.value });
+  },
+  gotoMain() {
+    my.navigateTo({url : 'pages/main/index'})
+  },
+  gotoSignUp() {
+    my.navigateTo({url: 'pages/SignUp/index'})
   }
 });

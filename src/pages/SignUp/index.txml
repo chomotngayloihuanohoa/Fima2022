@@ -32,9 +32,9 @@
       <button form-type="submit">Sign Up</button>
       <!-- <button form-type="reset" type="outline">Reset</button> -->
     </view>
-    
   </form>
-  <text class = "signInLine">
+  <button class="signInLine" onTap="gotoSignIn">Already have an account? Sign in</button>
+  <!-- <text class = "signInLine">
     Already have an account? Sign in
-  </text>
+  </text> -->
 </view>

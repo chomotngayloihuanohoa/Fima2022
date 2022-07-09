@@ -20,5 +20,11 @@ Page({
   },
   onReset(e) {
     console.log('onReset', e);
+  },
+  gotoSignIn() {
+    my.navigateTo({url : 'pages/index/index'})
+  },
+  gotoMain() {
+    my.navigateTo({url: 'pages/main/index'})
   }
 });
