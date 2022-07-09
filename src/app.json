@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/setting/index",
+    "pages/SignUp/index",
+    "pages/payment/index",
+    "pages/welcome/index",
+    "pages/main/index",
+    "pages/planning/index",
+    "pages/addTransaction/index"
+  ],
+  "window": {
+    "defaultTitle": "Fima"
+  }
+}

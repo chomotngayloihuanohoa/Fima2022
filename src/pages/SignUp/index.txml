@@ -29,7 +29,7 @@
       </label>
     </view>
     <view class="buttons">
-      <button form-type="submit">Sign Up</button>
+      <button form-type="submit" onTap="gotoMain">Sign Up</button>
       <!-- <button form-type="reset" type="outline">Reset</button> -->
     </view>
   </form>
